@@ -24,6 +24,7 @@
     grid-template-columns: 1fr 1fr;
 }
 .img{
+    border: 1px solid rgba(0, 0, 0, 0.47);
     border-radius: 15%;
     overflow: hidden;
     width: 150px;
@@ -37,18 +38,18 @@
     
 }
 .a{
-    background-color: rgb(255, 0, 0);
-    box-shadow: 5px 5px 5px 5px rgba(255, 0, 0, 0.535);
+    background-color: rgba(255, 0, 0, 0.87);
+    box-shadow: 2px 2px 2px 4px rgba(255, 0, 0, 0.535);
 }
 .b{
-    background-color: green;
-    box-shadow: 5px 5px 5px 5px rgba(0, 255, 68, 0.535);
+    background-color: rgba(0, 255, 0, 0.839);
+    box-shadow: 2px 5px 2px  4px  rgba(0, 210, 56, 0.518);
 }
 .c{
-    background-color: yellow;
-    box-shadow: 5px 5px 5px 5px rgba(251, 255, 0, 0.535);
+    background-color: rgba(255, 255, 0, 0.842);
+    box-shadow: 2px 2px 2px 4px rgba(198, 201, 0, 0.535);
 }
 .d{
-    background-color: blue;
-    box-shadow: 5px 5px 5px 5px rgba(17, 0, 255, 0.535);
+    background-color: rgba(0, 0, 255, 0.804);
+    box-shadow: 2px 2px 2px 4px rgba(17, 0, 255, 0.535);
 }
