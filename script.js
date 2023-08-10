@@ -56,21 +56,26 @@ f=()=>{
        
     baja=(k)=>{
         nn = mp[k]
-        console.log(nn)
+       // console.log(nn)
         sn = new Audio('sounds/'+nn+'.mp3');
             
 
-                sn.play();
+            sn.play();
+            br=0;
             console.log(k,' ',nn)
     
-        }
-        for(i=1; i<4;i++){
-          setInterval(()=>{baja(i)},1500);
+    }
+        for(i=1; i<=3;i++){
+            l = 0,r=1000000000
+            baja(i);
+            while(l<r)l++;
+
+         //   console.log(i)
+            
             
         }
 
 }
-
-$(document).keypress(()=>{
+document.addEventListener('keypress',()=>{
     f();
-})
+});
